@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridham's AI Resume</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Ridham Dadwal</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#chatbot">AI Assistant</a></li>
+
+        </ul>
+    </nav>
+    <section class="hero" id="home" data-aos="fade-up">
+        <img src="{{url_for('static', filename='images/profile.jpeg')}}" alt="Profile Photo" class="profile">
+        <h1>Ridham Dadwal</h1>
+        <h2>B.TECH CSE Student</h2>
+        <p>Passionate about technology and innovation ,
+            always eager to learn and contribute.
+        </p>
+        <div class="hero-buttons">
+            <a href="#" class="btn" id="resume-btn"> Download Resume </a>
+        </div>
+    </section>
+    <section class="about" id="about" data-aos="fade-right">
+    <h2>About Me</h2>
+    <div class="about-box">
+        <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+                I am Ridham Dadwal, a B.Tech Computer Science student who enjoys
+                learning new technologies and building projects that solve
+                real-world problems.
+            </p>
+            <p><strong>🎓 Education:</strong> B.Tech CSE</p>
+            <p><strong>📍 Location:</strong> Himachal Pradesh, India</p>
+            <p><strong>💻 Interests:</strong> Artificial Intelligence, Web Development</p>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+
+    <h2>Education</h2>
+
+    <div class="education-box">
+
+        <div class="education-card">
+
+            <h3>🎓 Bachelor of Technology (Computer Science & Engineering)</h3>
+
+            <p><strong>University:</strong> Lovely Professional University</p>
+
+            <p><strong>Duration:</strong> 2025 – 2029 (Expected)</p>
+
+            <p><strong>Status:</strong> Currently in Second Year</p>
+
+            <p><strong>Current CGPA:</strong> 9.04/10</p>
+
+        </div>
+
+        <div class="education-card">
+
+            <h3>🏫 Class XII</h3>
+
+            <p><strong>School:</strong> Govt. Sr. Sec. School Bhanjal, Una, Himachal Pradesh</p>
+
+            <p><strong>Board:</strong> HP Board</p>
+
+            <p><strong>Year of Passing:</strong> 2024</p>
+
+            <p><strong>Percentage:</strong> 92.4%</p>
+
+        </div>
+
+        <div class="education-card">
+
+            <h3>📘 Class X</h3>
+
+            <p><strong>School:</strong> D.D.M. International School, Una, Himachal Pradesh</p>
+
+            <p><strong>Board:</strong> CBSE</p>
+
+            <p><strong>Year of Passing:</strong> 2022</p>
+
+            <p><strong>Percentage:</strong> 79%</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="skills" id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>💻 HTML</h3>
+            <p>Creating well-structured and semantic web pages.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>🎨 CSS</h3>
+            <p>Designing responsive and attractive user interfaces.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>⚡ JavaScript</h3>
+            <p>Building interactive and dynamic web applications.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>🐍 Python</h3>
+            <p>Developing backend applications using Flask.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>🌐 Flask</h3>
+            <p>Creating APIs and AI-powered web applications.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>🔧 Git & GitHub</h3>
+            <p>Version control and collaborative software development.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="projects" id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+
+        <h3>🤖 AI Resume Assistant</h3>
+
+        <p>
+            An AI-powered portfolio website that allows recruiters to interact
+            with my resume through a chatbot. The assistant answers questions
+            about my education, skills, projects, and career goals using
+            Python, Flask, JavaScript, and Google Gemini AI.
+        </p>
+
+        <h4>Technologies Used</h4>
+
+        <div class="tech-stack">
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Flask</span>
+            <span>Gemini AI</span>
+            <span>Git</span>
+            <span>GitHub</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="YOUR_GITHUB_REPOSITORY_LINK" target="_blank" class="btn">
+                View Code
+            </a>
+
+            <a href="#" class="btn">
+                Live Demo (Coming Soon)
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="contact" id="contact" data-aos="fade-up">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-container">
+
+        <a href="mailto:dadwalridham01@gmail.com" class="contact-card">
+            📧
+            <h3>Email</h3>
+            <p>dadwalridham01@gmail.com</p>
+        </a>
+
+        <a href="https://github.com/dadwalridham01" target="_blank" class="contact-card">
+            💻
+            <h3>GitHub</h3>
+            <p>View My Projects</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ridham-dadwal-543893425/" target="_blank" class="contact-card">
+            💼
+            <h3>LinkedIn</h3>
+            <p>Connect with Me</p>
+        </a>
+    </div>
+</section>
+
+<section class="chatbot" id="chatbot">
+    <h2>AI Resume Assistant</h2>
+
+    <div class="chat-container">
+
+        <div class="chat-box" id="chat-box">
+            <div class="bot-message">
+                👋 Hi! I'm Ridham's AI Assistant. Ask me anything about his education, skills, projects, or experience.
+            </div>
+        </div>
+        <div class="quick-questions">
+            <button onclick="quickQuestion('Introduce yourself')">👤 About Me</button>
+
+            <button onclick="quickQuestion('Tell me about your education')">🎓 Education</button>
+
+            <button onclick="quickQuestion('What are your skills?')">💻 Skills</button>
+
+            <button onclick="quickQuestion('Explain your projects')">🚀 Projects</button>
+
+            <button onclick="quickQuestion('Where are you from?')">📍 Location</button>
+
+            <button onclick="quickQuestion('What is your career goal?')">🎯 Goal</button>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+
+    </div>
+</section>
+<footer class="footer">
+    <p>© 2026 Ridham Dadwal. All Rights Reserved.</p>
+</footer>
+
+
+<script src="{{url_for('static',filename='script.js')}}"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+    });
+</script>
+</body>
+</html>
