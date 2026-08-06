@@ -49,10 +49,6 @@ button{
     cursor: pointer;
     font-size: 16px;
 }
-button:hover{
-    transform: translateY(-3px);
-    box-shadow:0 10px 30px rgba(56,189,248,0.5);
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -255,8 +251,9 @@ nav ul li a:hover{
 }
 
 .btn:hover{
-    box-shadow:0 10px 30px rgba(56,189,248,0.5);
+    background:#0ea5e9;
     transform:translateY(-5px);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.5);;
 }
 
 .contact{
