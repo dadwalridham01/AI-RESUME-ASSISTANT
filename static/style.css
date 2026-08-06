@@ -51,7 +51,7 @@ button{
 }
 button:hover{
     transform: translateY(-3px);
-    background: #0ea5e9;
+    box-shadow:0 10px 30px rgba(56,189,248,0.5);
 }
 nav{
     display: flex;
@@ -255,7 +255,7 @@ nav ul li a:hover{
 }
 
 .btn:hover{
-    background:#0ea5e9;
+    box-shadow:0 10px 30px rgba(56,189,248,0.5);
     transform:translateY(-5px);
 }
 
