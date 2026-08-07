@@ -7,7 +7,7 @@ resume = {
     "tagline": "Passionate about technology, AI, and full-stack web development.",
 
     "about": """
-I am Ridham Dadwal, currently pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University (LPU).
+I am Ridham Dadwal, currently pursuing a Bachelor of Technology in Computer Science and Engineering at Lovely Professional University (LPU) at Jalandhar, Punjab.
 
 I enjoy building web applications, learning new technologies, solving real-world problems, and continuously improving my programming skills.
 
@@ -16,7 +16,7 @@ I have experience in frontend web development, backend development using Python 
 
     "education": """
 College:
-• Lovely Professional University
+• Lovely Professional University, Jalandhar, Punjab
 • Bachelor of Technology (Computer Science and Engineering)
 • Currently in Second Year
 • CGPA: 9.04/10
@@ -29,7 +29,7 @@ Class XII:
 
 Class X:
 • D.D.M International School, Una, Himachal Pradesh
-• Board: HPBOSE
+• Board: CBSE
 • Percentage: 79%
 • Passing Year: 2022
 """,
@@ -104,8 +104,6 @@ An AI-powered portfolio website where recruiters can interact with my resume usi
                 "JavaScript",
 
                 "Python",
-
-                "Flask",
 
                 "Google Gemini API",
 
@@ -204,7 +202,7 @@ Rules:
 "interview": {
 
     "introduction": """
-Hello! I'm Ridham Dadwal, a second-year B.Tech Computer Science and Engineering student at Lovely Professional University.
+Hello! I'm Ridham Dadwal, a second-year B.Tech Computer Science and Engineering student at Lovely Professional University in Jalandhar, Punjab  .
 
 I enjoy building AI-powered applications and modern web applications. I'm continuously learning new technologies and enjoy solving real-world problems through software development.
 """,
